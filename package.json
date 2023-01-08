@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "cropper": "^4.1.0",
+    "echarts": "^5.4.1",
+    "layui": "^2.8.0-rc.5",
+    "layui-src": "^2.6.8"
+  }
+}
