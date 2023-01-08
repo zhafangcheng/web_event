@@ -1,0 +1,64 @@
+/* 设置背景基本样式 */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/image_bgc.jpg") no-repeat center;
+    background-size: cover;
+}
+/* logo大小 */
+#login {
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+/* 登陆框 */
+.loginAndRegbox {
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* 登陆框标题 */
+.title-box {
+    height: 60px;
+    color: aqua;
+    text-align: center;
+    font-size: xx-large;
+}
+/* 隐藏去登陆 */
+.reg-box {
+    display: none;
+}
+/* 登陆表单的设置 */
+.layui-form {
+    padding: 0 30px;
+}
+/* 给去注册/去登陆设置右下角位置 */
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+/* 设置去注册/去登陆文字大小 */
+.links a {
+    font-size: 12px;
+}
+/* 输入框中图标的子绝父相 */
+.layui-form-item {
+    position: relative;
+}
+.layui-icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+/* 设置可输入区域的位置 */
+.layui-input {
+    padding-left: 32px;
+}
