@@ -31,7 +31,7 @@ $(function() {
         // 1、阻止默认行为
         e.preventDefault()
         // 2、发起Ajax的post请求
-        var data = {username: $('#reg-box [name=username]').val(), password: $('#reg-box [name=password]').val()}
+        var data = {username: $('#form_reg [name=username]').val(), password: $('#form_reg [name=password]').val()}
         $.post('/api/reguser', data, function (res) {
             if (res.status !== 0) {
                 // return console.log(res.message)
